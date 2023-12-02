@@ -10,6 +10,9 @@
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
+  accent-color: #2f80ed;
+  color: #000000;
+  border-color: #838383;
 }
 .header {
   display: flex;
