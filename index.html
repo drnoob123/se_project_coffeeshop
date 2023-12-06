@@ -116,10 +116,11 @@
           <form class="reservation__form">
             <fieldset class="reservation__form reservation__fieldset">
               <label
-              for="name-surname"
-              class="reservation__form reservation__form_type_text_label">
-              Name * 
-            </label>
+                for="name-surname"
+                class="reservation__form_type_text_label"
+              >
+                Name *
+              </label>
               <input
                 type="text"
                 id="reservation__form_type_text"
@@ -128,38 +129,34 @@
                 class="reservation__form_type_text"
                 required
               />
-            
-            <label
+
+              <label
                 for="guests"
                 class="reservation__form reservation__form_type_text_label"
                 >Number of Guests *
               </label>
               <input
                 type="text"
-                min="1"
-                max="8"
                 id="reservation__guests"
-                class="reservation__guests reservation__form_type_text "
+                class="reservation__guests reservation__form_type_text"
                 name="guests"
                 placeholder="1-8"
-               
                 required
               />
-            
-            <label for="date" class="reservation__form_type_date_label"
-            >Date & time *
-            </label
-            >
+
+              <label for="date" class="reservation__form_type_date_label"
+                >Date & time *
+              </label>
               <input
                 type="datetime-local"
                 name="date"
                 class="reservation__form reservation__form_type_date-local reservation__form_type_text"
                 required
               />
-              
+
               <label for="email" class="reservation__form_type_email_label"
-              >Your email *
-            </label>
+                >Your email *
+              </label>
               <input
                 type="email"
                 class="reservation__form reservation__form_type_email reservation__form_type_text"
@@ -167,35 +164,26 @@
                 placeholder="email@mail.com"
                 required
               />
-              
             </fieldset>
-              <button
-                type="submit"
-                class="reservation__form reservation__form_type_button"
-                name="book"
-              >
-                Book a table
-              </button>
-              <label
-                for="book"
-                class="reservation__form_type_submit_label"
-              ></label>
+            <button
+              type="submit"
+              class="reservation__form reservation__form reservation__form_type_button"
+              name="book"
+            >
+              Book a table
             </button>
-         
             <label
-                for="terms"
-                class="reservation__form_type_checkbox_label"
-              >
+              for="book"
+              class="reservation__form reservation__form_type_submit_label"
+            ></label>
+            <label for="terms" class="reservation__form_type_checkbox_label">
               <input
                 type="checkbox"
                 class="reservation__checkbox"
                 name="terms"
-      
               />
-                I agree with the terms of use
-              
-              </label>
-            
+              I agree with the terms of use
+            </label>
           </form>
         </section>
 
