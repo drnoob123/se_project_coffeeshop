@@ -245,7 +245,7 @@
   opacity: 70%;
   transition: ease-in;
 }
-.reservation__form_type_checkbox_label {
+.reservation__form_type_checkbox-label {
   display: flex;
   gap: 12px;
   font-family: Inter;
