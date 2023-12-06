@@ -247,6 +247,7 @@
 }
 .reservation__form_type_checkbox-label {
   display: flex;
+  flex-direction: row;
   gap: 12px;
   font-family: Inter;
   font-style: normal;
