@@ -199,14 +199,28 @@
   margin-bottom: 32px;
   padding: 0 8px 0;
   border: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
 }
 
 .reservation__fieldset {
   display: flex;
   align-items: start;
+  gap: 8px;
 }
 .reservation__form_type_date-local {
   padding: 0 8px 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #838383;
 }
 
 .reservation__fieldset .reservation__form_type_date-local {
@@ -234,4 +248,9 @@
 .reservation__form_type_checkbox_label {
   display: flex;
   gap: 12px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
