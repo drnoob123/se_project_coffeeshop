@@ -246,7 +246,7 @@
 }
 .reservation__form_type_button:hover {
   opacity: 70%;
-  transition: ease-in;
+  transition: opacity 0.5s;
 }
 .reservation__form_type_checkbox-label {
   display: flex;
