@@ -1,0 +1,72 @@
+.form {
+  margin: 0 auto;
+}
+.reservation__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+}
+.reservation__form_type_text {
+  width: 385px;
+  height: 60px;
+  text-align: left;
+  margin-bottom: 32px;
+  padding: 0 8px 0;
+  border: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+.reservation__fieldset {
+  display: flex;
+  align-items: start;
+  gap: 8px;
+}
+.reservation__form_type_date-local {
+  padding: 0 8px 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #838383;
+}
+
+.reservation__fieldset .reservation__form_type_date-local {
+  flex-direction: row;
+}
+.reservation__form_type_button {
+  background-color: #2f80ed;
+  color: #fff;
+  width: 385px;
+  height: 60px;
+  justify-content: center;
+  border-radius: 4px;
+  margin-bottom: 32px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.reservation__form_type_button:hover {
+  opacity: 70%;
+  transition: opacity 0.5s;
+}
+.reservation__form_type_checkbox-label {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 2px;
+}
