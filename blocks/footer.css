@@ -1,7 +1,8 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   background-size: cover;
-  margin-top: 60px;
+  margin: 0 0 60px;
+  padding: 0;
 }
 .footer__logo {
   width: 105px;
@@ -12,7 +13,6 @@
 .footer__list {
   padding-left: 0;
   text-align: right;
-  position: relative;
   bottom: 80px;
   font-family: "Inter";
   font-size: 16px;
