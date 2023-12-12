@@ -33,17 +33,18 @@
 }
 
 .about__content {
+  margin: 0;
   font-family: "Noto Serif";
   font-size: 20px;
   line-height: 30px;
-  padding: 60px 0 80px;
+  margin: 119px 80px 173px;
 }
 
 .about__paragraph {
+  display: flex;
+  flex-direction: column;
   color: #fff;
-  margin: 0 0 20px;
   max-width: 660px;
-  gap: 20px;
 }
 
 .about__circle {
