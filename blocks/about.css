@@ -19,7 +19,6 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0;
-  padding: 0;
 }
 
 .about__title {
@@ -32,14 +31,16 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin: 0 0 0 10px;
 }
 
 .about__content {
-  margin: 0;
   font-family: "Noto Serif" "Arial", sans-serif;
   font-size: 20px;
   line-height: 30px;
-  margin: 119px 80px 173px;
+  margin: 119px 80px 173px 0;
+  display: flex;
+  justify-content: end;
 }
 
 .about__paragraph {
@@ -47,7 +48,6 @@
   flex-direction: column;
   color: #fff;
   max-width: 660px;
-  justify-content: center;
 }
 
 .about__circle {
