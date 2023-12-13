@@ -3,7 +3,6 @@
   flex-direction: column;
   height: 100vh;
   width: 100%;
-  padding: 28px 80px 40px;
   box-sizing: border-box;
   background-color: #fff;
   background-image: url(../images/background_header.svg);
@@ -21,7 +20,7 @@
   line-height: 76px;
   font-weight: 500;
   margin-bottom: 0;
-  margin-top: 183px;
+  margin: 183px 0 0 80px;
 }
 
 .header__title_span-accent {
@@ -45,8 +44,7 @@
   max-width: 638px;
   font-size: 20px;
   line-height: 30px;
-  margin-top: 32px;
-  margin-bottom: 0;
+  margin: 32px 0 0 80px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
