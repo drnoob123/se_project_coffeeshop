@@ -26,6 +26,7 @@
   line-height: 20px;
   gap: 5px;
 }
+
 .card__list-divider {
   border-bottom: 1px solid black;
   flex-grow: 1;

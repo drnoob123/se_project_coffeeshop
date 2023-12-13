@@ -41,11 +41,13 @@
   line-height: 30px;
   color: #838383;
 }
+
 .reservation__fieldset {
   display: flex;
   align-items: start;
   gap: 8px;
 }
+
 .reservation__form_type_date-local {
   padding: 0 8px 0;
   font-family: Inter;
@@ -60,6 +62,7 @@
 .reservation__fieldset .reservation__form_type_date-local {
   flex-direction: row;
 }
+
 .reservation__form_type_button {
   background-color: #2f80ed;
   color: #fff;
@@ -75,10 +78,12 @@
   font-size: 16px;
   line-height: 20px;
 }
+
 .reservation__form_type_button:hover {
   opacity: 70%;
   transition: opacity 0.5s;
 }
+
 .reservation__form_type_checkbox-label {
   display: flex;
   flex-direction: row;

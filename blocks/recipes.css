@@ -32,6 +32,7 @@
   line-height: 30px;
   margin-bottom: 80px;
 }
+
 .recipes__videos {
   display: flex;
   flex-direction: row;
@@ -46,6 +47,7 @@
   width: 480px;
   border: none;
 }
+
 .recipes__videos-caption {
   display: flex;
   justify-content: space-between;
