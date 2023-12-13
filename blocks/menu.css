@@ -14,7 +14,7 @@
 }
 .menu__title {
   text-align: center;
-  font-family: "Inter", "Times New Roman", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -24,7 +24,7 @@
 
 .menu__subtitle {
   text-align: center;
-  font-family: "Noto Serif" "Arial", sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   margin: 0 0 100px 0;
