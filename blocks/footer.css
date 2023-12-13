@@ -4,6 +4,12 @@
   margin: 0;
   padding: 0;
 }
+
+.footer__content {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer__logo {
   width: 105px;
   height: 39px;
