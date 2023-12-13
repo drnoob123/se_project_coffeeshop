@@ -1,9 +1,4 @@
 .header {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  width: 100%;
-  box-sizing: border-box;
   background-color: #fff;
   background-image: url(../images/background_header.svg);
   background-repeat: no-repeat;
@@ -13,6 +8,13 @@
   max-height: 800px;
 }
 
+.header__content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+}
 .header__title {
   z-index: 2;
   max-width: 729px;
