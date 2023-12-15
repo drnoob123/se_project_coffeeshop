@@ -121,7 +121,7 @@
                 id="name-surname"
                 name="name-surname"
                 placeholder="Name Surname"
-                class="form__type_text"
+                class="form__type form__type_text"
                 required
               />
               <label for="guests" class="form__type_text-label"
@@ -130,25 +130,27 @@
               <input
                 type="text"
                 id="guests"
-                class="form__type_text"
+                class="form__type form__type_text"
                 name="guests"
                 placeholder="1-8"
                 required
               />
-              <label for="date" class="form__type_date-label"
+              <label for="date" class="form form__type_date-label"
                 >Date & time *
               </label>
               <input
                 type="datetime-local"
                 id="date"
                 name="date"
-                class="form__type_date-local"
+                class="form__type form__type_date-local"
                 required
               />
-              <label for="email" class="form__emai-label">Your email * </label>
+              <label for="email" class="form form__emai-label"
+                >Your email *
+              </label>
               <input
                 type="email"
-                class="form__type_email"
+                class="form__type form__type_email"
                 name="email"
                 id="email"
                 placeholder="email@mail.com"
@@ -157,17 +159,20 @@
             </fieldset>
             <button
               type="submit"
-              class="form__type_button"
+              class="form form__type_button"
               name="book"
               id="book"
             >
               Book a table
             </button>
-            <label for="book" class="form__type_submit-label"></label>
-            <label for="terms" class="form__type_checkbox-label">
+            <label
+              for="book"
+              class="form__type form__type_submit-label"
+            ></label>
+            <label for="terms" class="form__type form__type_checkbox-label">
               <input
                 type="checkbox"
-                class="form__checkbox"
+                class="form form__checkbox"
                 name="terms"
                 id="terms"
               />
