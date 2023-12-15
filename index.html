@@ -44,32 +44,32 @@
           </ul>
         </nav>
         <h1 class="header__title">
-          <span class="header__title header__title_span-accent"
-            >Specialty coffee</span
-          ><br /><span
-            ><span class="header__title header__title_span-accent-2">
-              in the Triple Peaks Library</span
-            ></span
-          >
+          <span class="header__span-accent">Specialty coffee</span>
+          in the Triple Peaks Library
+          <p class="header__description">
+            Welcome to our study zone! We've got the coffee to energize you and
+            the cozy vibes to help you get creative.
+          </p>
         </h1>
-        <p class="header__description">
-          Welcome to our study zone! We've got the coffee to energize you<br />and
-          the cozy vibes to help you get creative.
-        </p>
         <img
           class="header__image"
           src="./images/inside_coffee_shop.png"
           alt="Illustration 'Inside Coffee Shop'"
         />
+        <div class="header__footer">
+          <div>
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday : Friday (10:00 – 19:00)</p>
 
-        <p class="header__footer">
-          Hours:<br />
-          Monday : Friday (10:00 – 19:00)<br />
-          Saturday – Sunday (11:00 – 18:00)<br />
-          <span>200 Success Avenue, The Town of Triple Peaks</span>
-        </p>
+            <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
+          </div>
+          <div>
+            <p class="header__paragraph">
+              200 Success Avenue, The Town of Triple Peaks
+            </p>
+          </div>
+        </div>
       </header>
-
       <main class="content">
         <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recipes</h2>
@@ -77,9 +77,8 @@
             Check out some recipes we've collected for your home-brewing
             experience:
           </p>
-
-          <div class="recipes__videos">
-            <div>
+          <ul class="recipes__videos">
+            <li>
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=HjqVX0UFuM9DQGlZ"
@@ -91,8 +90,8 @@
                 Aeropress recipe
                 <span> ~5 min</span>
               </p>
-            </div>
-            <div>
+            </li>
+            <li>
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/st571DYYTR8?si=-ZL-yfAe8IUwuPX5"
@@ -103,16 +102,17 @@
               <p class="recipes__videos-caption">
                 French press recipe<span>~15 min</span>
               </p>
+            </li>
             </div>
-          </div>
+          </ul>
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Book a table</h2>
           <form class="form reservation__form">
-            <fieldset class="reservation__form reservation__fieldset">
+            <fieldset class="form__fieldset">
               <label
                 for="name-surname"
-                class="reservation__form reservation__form_type_text-label"
+                class="form__type_text-label"
               >
                 Name *
               </label>
@@ -121,45 +121,42 @@
                 id="name-surname"
                 name="name-surname"
                 placeholder="Name Surname"
-                class="reservation__form reservation__form_type_text"
+                class="form__type_text"
                 required
               />
-
               <label
                 for="guests"
-                class="reservation__form reservation__form_type_text-label"
+                class="form__type_text-label"
                 >Number of Guests *
               </label>
               <input
                 type="text"
                 id="guests"
-                class="reservation__form reservation__form_type_text"
+                class="form__type_text"
                 name="guests"
                 placeholder="1-8"
                 required
               />
-
               <label
                 for="date"
-                class="reservation__form reservation__form_type_date-label"
+                class="form__type_date-label"
                 >Date & time *
               </label>
               <input
                 type="datetime-local"
                 id="date"
                 name="date"
-                class="reservation__form reservation__form_type_date-local reservation__form_type_text"
+                class="form__type_date-local"
                 required
               />
-
               <label
                 for="email"
-                class="reservation__form reservation__form_emai-label"
+                class="form__emai-label"
                 >Your email *
               </label>
               <input
                 type="email"
-                class="reservation__form reservation__form_type_email reservation__form_type_text"
+                class="form__type_email"
                 name="email"
                 id="email"
                 placeholder="email@mail.com"
@@ -168,7 +165,7 @@
             </fieldset>
             <button
               type="submit"
-              class="reservation__form reservation__form reservation__form_type_button"
+              class="form__type_button"
               name="book"
               id="book"
             >
@@ -176,29 +173,30 @@
             </button>
             <label
               for="book"
-              class="reservation__form reservation__form_type_submit-label"
+              class="form__type_submit-label"
             ></label>
             <label
               for="terms"
-              class="reservation__form reservation__form_type_checkbox-label"
+              class="form__type_checkbox-label"
             >
               <input
                 type="checkbox"
-                class="reservation__checkbox"
+                class="form__checkbox"
                 name="terms"
-                id="terms"
+                id="terms"           
               />
               I agree with the terms of use
             </label>
           </form>
         </section>
+
         <section class="menu" id="menu">
-          <h2 class="menu__title" id="menu-title">Menu</h2>
-          <p class="menu__subtitle" id="menu-subtitle">
+          <h2 class="menu__title">Menu</h2> 
+          <p class="menu__subtitle">
             We brew coffee from localy roasted, Faitrade certified beans and use
-            biodegradable<br />
-            cups. All teas from our collection are $2/cup.
+            biodegradable cups. All teas from our collection are $2/cup.
           </p>
+        <div class="menu__cards">
           <ul class="menu__cards" id="card-list">
             <li class="card">
               <h3 class="card__title">Filter</h3>
@@ -278,8 +276,8 @@
               </ul>
             </li>
           </ul>
+        </div>
         </section>
-
         <section class="about" id="about">
           <h2 class="about__title">About the coffeeshop</h2>
           <div class="about about__content">
@@ -302,7 +300,6 @@
           <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
-
       <footer class="footer" id="footer">
         <div class="footer__content">
           <img
@@ -311,23 +308,23 @@
             alt="footer logo"
           />
           <ul class="footer__list">
-            <li class="footer__list-item">
-              <h4 class="footer__social-heading">Social media</h4>
-              <img
+            <h4 class="footer__social-heading">Social media</h4>
+            <li class="footer__list-item"> 
+              <a href="#" class="footer__social-link" content="facebook"
+                ><img
                 src="./images/facebook_white.svg"
                 class="footer__social-icon"
-                alt="Facebook icon"
-              /><a href="#" class="footer__social-link" content="facebook"
-                >Facebook</a
+                alt="facebook-icon"
+              />Facebook</a
               >
             </li>
             <li class="footer__list-item">
-              <img
+              <a href="#" class="footer__social-link" content="instagram"
+                ><img
                 src="./images/instagram_white.svg"
                 class="footer__social-icon"
-                alt="Instagram icon"
-              /><a href="#" class="footer__social-link" content="instagram"
-                ><span>Instagram</span></a
+                alt="instagram"
+              /><span>Instagram</span></a
               >
             </li>
           </ul>

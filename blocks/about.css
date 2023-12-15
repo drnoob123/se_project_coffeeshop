@@ -16,9 +16,8 @@
   display: flex;
   overflow: hidden;
   position: relative;
-  min-width: 1100px;
-  max-width: 1600px;
   margin: 0;
+  justify-content: space-between;
 }
 
 .about__title {
@@ -39,13 +38,9 @@
   font-size: 20px;
   line-height: 30px;
   margin: 119px 80px 173px 0;
-  display: flex;
-  justify-content: end;
 }
 
 .about__paragraph {
-  display: flex;
-  flex-direction: column;
   color: #fff;
   max-width: 660px;
   margin: 20px 80px 0 0;

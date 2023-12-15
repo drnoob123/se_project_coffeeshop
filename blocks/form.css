@@ -1,4 +1,85 @@
 .form {
-  margin: 0 auto;
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 8px;
+  padding: 0;
+  border-style: none;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__type_text,
+.form__type_email,
+.form__type_date-local {
+  display: flex;
+  width: 385px;
+  height: 60px;
+  margin-bottom: 32px;
+  padding: 0 8px 0;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: none;
+}
+
+.form__type_date-local {
+  padding: 0 8px 0;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__type_button {
+  display: flex;
+  background-color: #2f80ed;
+  color: #fff;
+  width: 385px;
+  height: 60px;
+  border-style: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  margin-bottom: 32px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__type_button:hover {
+  opacity: 70%;
+  transition: opacity 0.5s;
+}
+
+.form__checkbox {
+  height: 20px;
+  width: 20px;
+  border-radius: 2px;
+}
+.form__type_checkbox-label {
+  display: flex;
+  gap: 12px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 2px;
 }
