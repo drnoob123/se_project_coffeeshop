@@ -14,9 +14,9 @@
   border-style: none;
 }
 
-.form__type_text,
-.form__type_email,
-.form__type_date-local {
+.form__text,
+.form__email,
+.form__date-local {
   display: flex;
   width: 385px;
   height: 60px;
@@ -32,16 +32,7 @@
   border: none;
 }
 
-.form__type_date-local {
-  padding: 0 8px 0;
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.form__type_button {
+.form__button {
   display: flex;
   background-color: #2f80ed;
   color: #fff;
@@ -60,7 +51,7 @@
   line-height: 20px;
 }
 
-.form__type_button:hover {
+.form__button:hover {
   opacity: 70%;
   transition: opacity 0.5s;
 }
@@ -70,7 +61,7 @@
   width: 20px;
   border-radius: 2px;
 }
-.form__type_checkbox-label {
+.form__label_type_checkbox {
   display: flex;
   justify-content: center;
   gap: 12px;

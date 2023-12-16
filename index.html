@@ -108,68 +108,54 @@
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Book a table</h2>
-          <form class="reservation form reservation__form">
+          <form class="form reservation__form">
             <fieldset class="form__fieldset">
-              <label for="name-surname" class="form__type_text-label">
-                Name *
-              </label>
+              <label for="name-surname" class="form__label"> Name * </label>
               <input
                 type="text"
                 id="name-surname"
                 name="name-surname"
                 placeholder="Name Surname"
-                class="form__type form__type_text"
+                class="form__text"
                 required
               />
-              <label for="guests" class="form__type form__type_text-label"
+              <label for="guests" class="form__label"
                 >Number of Guests *
               </label>
               <input
                 type="text"
                 id="guests"
-                class="form__type form__type_text"
+                class="form__text"
                 name="guests"
                 placeholder="1-8"
                 required
               />
-              <label for="date" class="form__type form__type_date-label"
-                >Date & time *
-              </label>
+              <label for="date" class="form__date-label">Date & time * </label>
               <input
                 type="datetime-local"
                 id="date"
                 name="date"
-                class="form__type form__type_date-local"
+                class="form__date-local"
                 required
               />
-              <label for="email" class="form form__emai-label"
-                >Your email *
-              </label>
+              <label for="email" class="form__emai-label">Your email * </label>
               <input
                 type="email"
-                class="form__type form__type_email"
+                class="form__email"
                 name="email"
                 id="email"
                 placeholder="email@mail.com"
                 required
               />
             </fieldset>
-            <button
-              type="submit"
-              class="form__type form__type_button"
-              name="book"
-              id="book"
-            >
+            <button type="submit" class="form__button" name="book" id="book">
               Book a table
             </button>
-            <label
-              for="book"
-              class="form__type form__type_submit-label"
-            ></label>
-            <label for="terms" class="form__type form__type_checkbox-label">
+            <label for="book" class="form__submit-label"></label>
+            <label for="terms" class="form__label form__label_type_checkbox">
               <input
                 type="checkbox"
-                class="form form__checkbox"
+                class="form__checkbox"
                 name="terms"
                 id="terms"
               />
