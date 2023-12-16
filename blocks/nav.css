@@ -26,9 +26,9 @@
 .nav__link {
   color: #000000;
   text-decoration: none;
+  transition: ease-in 0.5s;
 }
 
 .nav__link:hover {
   color: #2f80ed;
-  transition: ease-in;
 }
