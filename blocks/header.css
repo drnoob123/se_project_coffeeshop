@@ -2,7 +2,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  padding: 28px 80px 40px;
+  padding: 30px 80px 40px;
   box-sizing: border-box;
   background-color: #fff;
   background-image: url(../images/background_header.svg);
