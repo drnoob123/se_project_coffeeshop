@@ -16,7 +16,7 @@
   display: flex;
   overflow: hidden;
   position: relative;
-  margin: 0;
+  margin: 0 auto;
   justify-content: space-between;
 }
 
@@ -30,30 +30,25 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: 0 0 0 10px;
+  margin: left auto;
 }
 
 .about__content {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
-  margin: 119px 80px 173px 0;
+  padding: 119px 80px 173px 0;
+  margin: auto 0;
 }
 
 .about__paragraph {
   color: #fff;
   max-width: 660px;
-  margin: 20px 80px 0 0;
+  margin: auto 0;
+  padding: 20px 0 0;
 }
 
 .about__circle {
-  background-color: #2f80ed;
-  width: 426px;
-  height: 426px;
-  border-radius: 50%;
-  position: absolute;
-  top: -152px;
-  left: -129px;
   background-color: #2f80ed;
   width: 426px;
   height: 426px;
