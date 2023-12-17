@@ -39,9 +39,9 @@
   max-width: 638px;
   font-size: 20px;
   line-height: 30px;
-  margin-top: 32px;
-  margin-bottom: 0;
-  font-family: "Noto Serif", "Times New Roman", serif;
+  padding: 32px 0 0;
+  margin: 0;
+  font-family: "Noto Serif";
   font-size: 20px;
   line-height: 30px;
 }
@@ -53,7 +53,6 @@
   position: absolute;
   width: 646px;
   height: 568px;
-  right: 205px;
   max-height: 100%;
   max-width: 100%;
   padding: 0;
@@ -70,11 +69,18 @@
   margin: auto 80px 40px 0;
   align-items: flex-end;
   box-sizing: border-box;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
 }
 
 .header__paragraph {
-  font-family: "Inter", "Times New Roman", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   line-height: 20px;
+  font-weight: normal;
   color: #838383;
   margin: auto 0;
   padding: 0;
