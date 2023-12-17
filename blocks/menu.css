@@ -1,37 +1,33 @@
 .menu {
   height: 100vh;
-  padding: 100px 0 100px;
-  margin: 0 auto;
   background-image: url(../images/background_menu.svg);
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
+  background-position: center;
+  background-color: #fff;
+  padding: 100px 0 0;
 }
 
 .menu__title {
-  display: flex;
   max-width: 780px;
-  flex-direction: column;
-  padding: 0 0 24px;
-  align-items: center;
+  text-align: center;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  padding: 0 0 24px;
   margin: 0 auto;
 }
 
 .menu__subtitle {
   max-width: 800px;
   text-align: center;
-  padding: 0 0 100px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
-  margin: 0 auto;
   word-break: break-all;
+  padding: 0 0 100px;
+  margin: 0 auto;
 }
 
 .menu__cards {
@@ -41,6 +37,6 @@
   flex-wrap: wrap;
   list-style-type: none;
   gap: 100px;
-  margin: 0 auto;
-  padding: 0 0 100px;
+  margin: 0;
+  padding-left: 0;
 }
