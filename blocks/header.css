@@ -20,8 +20,8 @@
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -0.6px;
-  margin-bottom: 0;
-  margin-top: 183px;
+  margin: 0;
+  padding: 183px 0 0;
   display: flex;
   flex-direction: column;
 }
@@ -66,8 +66,9 @@
   justify-content: space-between;
   display: flex;
   z-index: 2;
-  margin: auto 80px 40px 0;
-  align-items: flex-end;
+  margin: 0;
+  padding: 173px 0 0;
+  align-items: flex-start
   box-sizing: border-box;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
@@ -78,10 +79,12 @@
 }
 
 .header__paragraph {
+  display: flex;
+  align-items: flex-end;
   font-family: "Inter", "Arial", sans-serif;
   line-height: 20px;
   font-weight: normal;
   color: #838383;
-  margin: auto 0;
+  margin:0;
   padding: 0;
 }
