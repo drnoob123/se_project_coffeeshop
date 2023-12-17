@@ -6,7 +6,7 @@
 }
 
 .footer__content {
-  margin: left auto;
+  margin: 0 auto;
 }
 
 .footer__logo {
@@ -20,6 +20,7 @@
   font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
+  margin: 0 auto;
 }
 
 .footer__list-item {
@@ -37,22 +38,25 @@
   font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
-  margin: 0 80px 20px 0;
+  margin: auto 0 20px;
+  padding: 0 80px 0 0;
 }
 
 .footer__social-icon {
-  margin-right: 5px;
-  width: 16x;
+  padding: 0 5px 0 0;
+  width: 16px;
   height: 16px;
+  margin: auto 0;
 }
 
 .footer__social-link {
   text-decoration: none;
   color: #fff;
-  margin-right: 80px;
+  padding: 0 80px 0 0;
   font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
+  margin: auto 0;
 }
 
 .footer__social-link:hover {
@@ -65,5 +69,6 @@
   font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
+  padding: 108px 0 60px;
   margin: 0 auto;
 }
