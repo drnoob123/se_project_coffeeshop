@@ -15,7 +15,7 @@
   margin: 0 auto;
 }
 
-.form__text,
+.form__input,
 .form__email,
 .form__date-local {
   display: flex;
