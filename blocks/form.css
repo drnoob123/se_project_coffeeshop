@@ -16,9 +16,7 @@
   margin: 0 auto;
 }
 
-.form__input,
-.form__email,
-.form__date-local {
+.form__input {
   display: flex;
   width: 385px;
   height: 60px;
