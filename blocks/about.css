@@ -48,6 +48,10 @@
   padding: 20px 0 0;
 }
 
+.about__paragraph:first-of-type {
+  margin: 0 0;
+}
+
 .about__circle {
   background-color: #2f80ed;
   width: 426px;
