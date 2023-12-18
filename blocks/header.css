@@ -9,8 +9,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 720px;
-  max-height: 800px;
+
   position: relative;
 }
 
@@ -62,12 +61,13 @@
 }
 
 .header__footer {
+  display: flex;
+  columns: 2;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-  display: flex;
   z-index: 2;
-  margin: auto 0;
+  margin: auto 0 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", "Arial", sans-serif;
@@ -85,4 +85,5 @@
   font-weight: 500;
   color: #838383;
   padding: 0;
+  margin: 0;
 }
