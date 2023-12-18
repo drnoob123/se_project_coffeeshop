@@ -6,9 +6,11 @@
 }
 
 .footer__content {
-  margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .footer__logo {
@@ -18,7 +20,6 @@
 
 .footer__list {
   padding-left: 0;
-  text-align: right;
   font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -37,7 +38,7 @@
   font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
-  margin: auto 0;
+  margin: 0 0 0 auto;
   padding: 0 0 20px;
 }
 
